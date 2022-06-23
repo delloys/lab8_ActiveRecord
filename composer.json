@@ -1,0 +1,13 @@
+{
+    "name": "root/active-record",
+    "require": {
+        "ext-pdo": "*",
+        "twig/twig": "^3.0",
+        "monolog/monolog": "^3.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "root\\ActiveRecord\\": "src/"
+        }
+    }
+}
